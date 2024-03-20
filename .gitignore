@@ -29,6 +29,10 @@ venv.bak/
 *.sublime-project
 
 # Ignore Django Migrations in development if ou are working on team
+# Ignore Django Migrations in development if you are working on a team
+applications/persona/migrations/*
+!applications/persona/migrations/__init__.py
+
 **/migrations/**
 !**/migrations
 !**/migrations/__init__.py
