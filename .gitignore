@@ -1,1 +1,40 @@
 
+# Django #
+*.log
+*.log.*
+*.pot
+*.pyc
+*.sql
+__pycache__
+db.sqlite3
+*.sqlite3
+core/__pycache__
+#Files proyect
+agenda/agenda/settings/__pycache__
+
+# Enviroments #
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Sublime text
+*.tmlnguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+
+# Ignore Django Migrations in development if ou are working on team
+**/migrations/**
+!**/migrations
+!**/migrations/__init__.py
+#**/__init__.py
+
+
+# penv
+.python-version
+.Ds_store
